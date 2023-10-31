@@ -1,0 +1,201 @@
+body {
+    font-family: poppins;
+    background: #DEAA88;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navBar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #800000;
+    padding: 12px 6px;
+    text-decoration: none;
+    border: 5px solid black;
+  }
+  
+  #navBar #navLinks {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    width: 100%;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .nav-link a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #container-with-background {
+    background-image: url("https://drive.google.com/uc?export=view&id=1KVDapld513gDp4XOaLft0qfmeyxhszdV");
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 0 0 0;
+    font-size: 20px;
+    color: #800000;
+  }
+  
+  .food-truck-icon {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  #about-us {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 25px;
+    background-color: #800000;
+    border: 5px solid black;
+  }
+  
+  #about-us-img {
+    border: 4px solid #800000;
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: 15px;
+  }
+  
+  .menu-section {
+    padding: 30px;
+  }
+  
+  #menu {
+    margin: 0 auto;
+    width: 800px;
+    font-size: 30px;
+    margin: 0 auto;
+    color: #800000;
+    text-align: center;
+    line-height: 25px;
+    padding: 16px;
+  }
+  
+  h2 {
+  color: black;
+  }
+  
+  #wraps, #sides {
+    font-family: poppins;
+    font-size: 24px;
+    margin: 0 auto;
+    text-align: center;
+    color: #800000;
+  }
+  
+  
+  h4 {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+    color: black;
+    line-height: 25px;
+    padding: 10px 15px;
+    text-align: center;
+  }
+  
+  .description {
+    font-family: poppins;
+    font-size: 15px;
+    margin: 0 auto;
+    line-height: 25px;
+    text-align: center;  
+  }
+  
+  .comment {
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+  }
+  
+  .quarterly-menu {
+    background: #cd7f4c;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 25px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .mathematician-favorites {
+    background: #800000;
+    border: 5px solid black;
+  }
+  
+  #math-fav-desc {
+    text-align: right;
+    padding: 25px;
+  }
+  
+  #favorite-pictures, .math-img {
+    display: flex;
+    flex-wrap: space-around;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 15px;
+  }
+  
+  .math-img { 
+    max-height: 350px;
+    max-width: 450px;
+    border: 4px solid black;
+  }
+  
+  
+  #social-media {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 16vh;
+    background: #800000;
+  }
+  
+  .media-pics {
+    height: 50px;
+    margin: 15px;
+  }
+  
+  #round-img {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .rights {
+    font-size: 20px;
+  }
+  
+  #location-section {
+    text-align: center;
+  }
+  
+  #hours-section {
+    text-align: center;
+    list-style-position: inside;
+    padding: 0;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  footer {
+    border: 5px solid black;
+  }
